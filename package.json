@@ -1,0 +1,16 @@
+{
+  "name": "sukibi-ai",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "SUKIBI AI - a modern Japanese AI chat app powered by the OpenAI API",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "dotenv": "latest",
+    "express": "latest",
+    "openai": "latest"
+  }
+}
